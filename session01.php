@@ -1,17 +1,6 @@
-
-
 <?php
-/**************************************************
- Nama file : session01.php
- Halaman ini merupakan halaman contoh penciptaan session.
- Perintah session_start() harus ditaruh diperintah pertama
- tanpa spasi di depannya.
- Perintah session_start() harus ada pada setiap halaman
- yang berhubungan dengan session
- ***************************************************/
-    session_start();
+session_start();
 
-$_SESSION['nama'] = "Achmad Solichin";
-echo "<a href= 'session02.php'>Menuju ke halaman kedua</a>";
-
+$_SESSION["nama"] = "Achmad Solichin";
+echo "<a href='session02.php'>Menuju ke halaman kedua</a>";
 ?>
